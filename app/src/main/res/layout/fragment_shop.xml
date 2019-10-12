@@ -22,5 +22,35 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <RadioButton
+                android:id="@+id/radio_mouse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mouse" />
+
+            <RadioButton
+                android:id="@+id/radio_keyboard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Keyboard" />
+
+            <RadioButton
+                android:id="@+id/radio_headphone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Headset" />
+        </RadioGroup>
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
