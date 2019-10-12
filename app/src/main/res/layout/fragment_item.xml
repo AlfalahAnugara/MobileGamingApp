@@ -1,14 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ItemFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="HelloItem" />
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="94dp"
+            tools:layout_editor_absoluteY="333dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Gaming Equipment Item"
+                    android:textSize="24sp"
+                    android:textStyle="italic" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="12dp"
+                    android:src="@drawable/headset" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="  Headset atau pelantang telinga adalah perangkat elektronik gabungan antara headphone dan mikrofon. Alat ini biasanya digunakan untuk mendengarkan suara dan sekaligus berbicara dengan perangkat komunikasi atau komputer, misalnya untuk VoIP. Teknologi headset sudah merambah ke dunia komunikasi, khususnya teknologi telepon seluler." />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/keyboard" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="  Tetikus (bahasa Inggris: mouse) adalah peranti penunjuk yang digunakan untuk memasukkan data dan perintah ke dalam komputer selain papan ketik. Tetikus memperoleh nama demikian karena kabel yang menjulur berbentuk seperti ekor tikus." />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="6dp"
+                    android:src="@drawable/mouse" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Papan tombol, papan ketik, atau papan tik (bahasa Inggris: keyboard) merupakan sebuah papan yang terdiri atas tombol-tombol seperti huruf alfabet (A-Z) untuk mengetikkan kalimat, juga terdapat angka 1 sampai 9, dan juga 0. Serta simbol-simbol khusus lainnya pada komputer. Dalam komputasi, papan tombol menggunakan susunan tombol atau kunci, untuk bertindak sebagai tuas mekanis atau sakelar elektronik." />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
