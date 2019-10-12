@@ -1,6 +1,9 @@
 package android.jplas.gamingapp;
 
-public class ShopItem {
+import android.os.Parcel;
+import android.os.Parcelable;
+
+public class ShopItem implements Parcelable {
     public static final int MOUSE = 0;
     public static final int KEYBOARD = 1;
     public static final int HEADPHONE = 2;
@@ -17,6 +20,25 @@ public class ShopItem {
         this.jumlah = calculate();
     }
 
+    protected ShopItem(Parcel in) {
+        nama = in.readString();
+        type = in.readInt();
+        satuan = in.readInt();
+        jumlah = in.readInt();
+    }
+
+    public static final Creator<ShopItem> CREATOR = new Creator<ShopItem>() {
+        @Override
+        public ShopItem createFromParcel(Parcel in) {
+            return new ShopItem(in);
+        }
+
+        @Override
+        public ShopItem[] newArray(int size) {
+            return new ShopItem[size];
+        }
+    };
+
     public int getJumlah(){
         return jumlah;
     }
@@ -31,4 +53,16 @@ public class ShopItem {
     }
 
 
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel parcel, int i) {
+        parcel.writeString(nama);
+        parcel.writeInt(type);
+        parcel.writeInt(satuan);
+        parcel.writeInt(jumlah);
+    }
 }
