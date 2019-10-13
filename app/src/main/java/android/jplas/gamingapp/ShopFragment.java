@@ -67,7 +67,7 @@ public class ShopFragment extends Fragment implements View.OnClickListener {
             TotalItem.setArguments(args);
             FragmentTransaction fragmentTransaction = getActivity()
                     .getSupportFragmentManager().beginTransaction();
-            fragmentTransaction.replace(R.id.fragment_container, new TotalItemFragment());
+            fragmentTransaction.replace(R.id.fragment_container, TotalItem);
             fragmentTransaction.commit();
         }else {
             Toast.makeText(getActivity(), "Please select equipment and your name !", Toast.LENGTH_SHORT).show();

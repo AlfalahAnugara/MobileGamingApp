@@ -34,7 +34,7 @@ public class TotalItemFragment extends Fragment {
         Bundle data = this.getArguments();
 
             items = data.getParcelable("shop");
-            String dat = "Total biaya anda "+items.getNama()+" "+items.getJumlah();
+            String dat = items.getNama()+" Total biaya anda "+items.getJumlah();
             textView.setText(dat);
 
         return view;
