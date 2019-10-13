@@ -13,6 +13,20 @@ public class ShopItem implements Parcelable {
     private int satuan;
     private int jumlah;
 
+    public String getNama() {
+        return nama;
+    }
+
+    public int getType() {
+        return type;
+    }
+
+    public int getSatuan() {
+        return satuan;
+    }
+
+
+
     public ShopItem(String nama, int type, int satuan){
         this.nama = nama;
         this.type = type;
