@@ -10,14 +10,14 @@
         <string name="skip">SKIP</string>
         <string name="start">GOT IT</string>
 
-        <string name="slide_1_title">Hello Food!</string>
-        <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
+        <string name="headphone">Headphone</string>
+        <string name="headphonedesc">Sometimes referred to as earphones, headphones are a hardware output device that either plug into a computer line out or speakers.</string>
 
-        <string name="slide_2_title">Movie Tickets</string>
-        <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
+        <string name="keyboard">Keyboard</string>
+        <string name="keyboarddesc">The keyboard is he piece of computer hardware used to input text, characters, and other commands into a computer or similar device.</string>
 
-        <string name="slide_3_title">Great Discounts</string>
-        <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+        <string name="mouse">Mouse</string>
+        <string name="mousedesc">A mouse is a small handheld input device that controls a computer screen's cursor or pointer in conjunction with the way it is moved on a flat surface!</string>
 
         <string name="slide_4_title">World Travel</string>
         <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
