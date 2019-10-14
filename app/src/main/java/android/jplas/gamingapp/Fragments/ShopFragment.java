@@ -1,6 +1,8 @@
-package android.jplas.gamingapp;
+package android.jplas.gamingapp.Fragments;
 
 
+import android.jplas.gamingapp.Activities.ShopItem;
+import android.jplas.gamingapp.R;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;

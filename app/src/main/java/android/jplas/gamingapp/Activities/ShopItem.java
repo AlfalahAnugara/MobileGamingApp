@@ -1,4 +1,4 @@
-package android.jplas.gamingapp;
+package android.jplas.gamingapp.Activities;
 
 import android.os.Parcel;
 import android.os.Parcelable;

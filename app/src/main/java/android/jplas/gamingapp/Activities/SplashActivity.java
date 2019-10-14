@@ -1,9 +1,10 @@
-package android.jplas.gamingapp;
+package android.jplas.gamingapp.Activities;
 
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.jplas.gamingapp.R;
 import android.os.Bundle;
 import android.os.Handler;
 
@@ -17,7 +18,7 @@ public class SplashActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(SplashActivity.this,MainActivity.class));
+                startActivity(new Intent(SplashActivity.this, MainActivity.class));
                 finish();
             }
         },5000);

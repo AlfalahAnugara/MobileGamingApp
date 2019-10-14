@@ -1,10 +1,12 @@
-package android.jplas.gamingapp;
+package android.jplas.gamingapp.Activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
-import android.content.ClipData;
+import android.jplas.gamingapp.Fragments.ItemFragment;
+import android.jplas.gamingapp.R;
+import android.jplas.gamingapp.Fragments.ShopFragment;
 import android.os.Bundle;
 import android.view.MenuItem;
 
