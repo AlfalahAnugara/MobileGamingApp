@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activities.SplashActivity"
-    android:background="#FFC107">
+    android:background="#FFFFFF">
 
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="167dp"
-        android:layout_height="162dp"
+        android:layout_width="332dp"
+        android:layout_height="291dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,8 +22,6 @@
         android:id="@+id/tagline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/peripheral_equip_gaming"
-        android:textColor="#FFFFFF"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,3 +29,6 @@
         app:layout_constraintTop_toBottomOf="@+id/logo"
         app:layout_constraintVertical_bias="0.083" />
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--    android:text="@string/peripheral_equip_gaming"-->
+<!--    android:textColor="#212F3D"-->
