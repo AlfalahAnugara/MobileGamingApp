@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "494032013189",
+    "firebase_url": "https://fir-crudfalah.firebaseio.com",
+    "project_id": "fir-crudfalah",
+    "storage_bucket": "fir-crudfalah.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494032013189:android:5ecc36923583112bdca6ec",
+        "android_client_info": {
+          "package_name": "android.jplas.gamingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494032013189-ujbt9p870hu9dldsu516cmti6eggbnoq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.jplas.gamingapp",
+            "certificate_hash": "82d16f9d4977f8b1b5035210fbf9d7ca4660b97f"
+          }
+        },
+        {
+          "client_id": "494032013189-1vn3n8lmcab2ptv7d2s4vq1f5a0j9ke5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoeS2hjkxGOZEQ5rOTebguYoAROqMs2VY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494032013189-1vn3n8lmcab2ptv7d2s4vq1f5a0j9ke5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
