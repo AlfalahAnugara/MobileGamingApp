@@ -1,15 +1,14 @@
-package android.jplas.gamingapp.Login;
+package android.jplas.gamingapp.Models;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.jplas.gamingapp.R;
 import android.os.Bundle;
 
-public class LoginActivity extends AppCompatActivity {
+public class data_mahasiswa extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_data_mahasiswa);
     }
 }
