@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Models.data_mahasiswa"></activity>
+        <activity android:name=".Adapter.RecyclerViewAdapter"></activity>
+        <activity android:name=".Activities.MyListData" />
+        <activity android:name=".Models.data_mahasiswa" />
         <activity android:name=".Login.CrudRegisterActivity" />
         <activity android:name=".Activities.WelcomeActivity" />
         <activity android:name=".Activities.SplashActivity">

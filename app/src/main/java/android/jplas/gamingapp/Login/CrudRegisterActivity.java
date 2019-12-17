@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.jplas.gamingapp.Activities.MainActivity;
+import android.jplas.gamingapp.Activities.MyListData;
+import android.jplas.gamingapp.Models.data_mahasiswa;
 import android.jplas.gamingapp.R;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -179,6 +181,9 @@ public class CrudRegisterActivity extends AppCompatActivity {
                                 finish();
                             }
                         });
+                break;
+            case R.id.showdata:
+                startActivity(new Intent(CrudRegisterActivity.this, MyListData.class));
                 break;
         }
     }
