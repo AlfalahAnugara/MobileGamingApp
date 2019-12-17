@@ -9,17 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Adapter.RecyclerViewAdapter"></activity>
+        <activity android:name=".Activities.WelcomeActivity"></activity>
+        <activity android:name=".Activities.SplashActivity"/>
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        <activity android:name=".Activities.updateData"/>
         <activity android:name=".Activities.MyListData" />
         <activity android:name=".Models.data_mahasiswa" />
-        <activity android:name=".Login.CrudRegisterActivity" />
-        <activity android:name=".Activities.WelcomeActivity" />
-        <activity android:name=".Activities.SplashActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".Login.CrudRegisterActivity">
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".Activities.MainActivity" />
     </application>

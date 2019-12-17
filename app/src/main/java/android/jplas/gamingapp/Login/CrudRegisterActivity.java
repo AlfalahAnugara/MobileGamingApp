@@ -26,7 +26,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.Collections;
 
-public class CrudRegisterActivity extends AppCompatActivity {
+public class CrudRegisterActivity extends AppCompatActivity implements View.OnClickListener  {
 
     private ProgressBar progressBar;
     private EditText NIM, Nama, Jurusan;
